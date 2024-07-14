@@ -1,0 +1,20 @@
+/* 
+
+    Name 
+    Description
+    Date & Time
+    Schedule the Quiz 
+    Multiple Choice Questions Allowed or not 
+    Negative Marking && Marks
+    Total Questions
+    Topic Name
+    Descriptive Questions?
+    Self Checking or Auto Checking?
+    Real Time Results or Scheduled Time Results Sharing
+    Send Results In Email 
+    Quiz: For Public or Private or Specific Peoples Only
+    Download the Excel File for Email Id 
+    Students Can Download true answer In Excel or pdf file.
+    Enter Emails in Excel File 
+    Download the Excel File for Quiz Creation
+  */

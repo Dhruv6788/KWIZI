@@ -1,0 +1,41 @@
+Basic Tasks for Initializing and Basic Functionalities --
+
+Configuration File : --- Done ✅
+
+Quiz name
+Description
+Start Date To End Date
+Duration
+Students Email - Only this student allowed to give the quiz
+
+
+Question File :  --- DONE ✅
+
+  Question - 
+  Question Options -
+  Question Answer - 
+  Time Duration 
+  Create Quiz
+
+Authentication : ---Done ✅
+
+Cheat Prevention : --- Present 🧑‍💻
+
+  Database Designing - is in Progresss......
+  Cannot select question and Options
+  Cannot Copy paste
+
+  Strict Quiz or Exam Mode 
+    - Cannot change the tab or Window 
+
+
+
+Future of Kwizi : --- Not Initialized yet 🧑‍💻
+
+Advanced Stuff OR Subscription Based Activities: --- Remaining 🧑‍💻
+
+  Primary Goal - Make it flexible and automate tasks
+  Multiple Questions with manually checking 
+  Multiple choice questions --- 
+  Every Question should have different weight and Time Duration according to host requirement
+  AI Integration to automatic genrate quiz and check the questions and answers in multiple languages 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= quiz.config.quizName %></title>
+</head>
+<body>
+  <h1><%= quiz.config.quizName %></h1>
+  <p><%= quiz.config.description %></p>
+  <p>Start Date: <%= quiz.config.startDate %></p>
+  <p>End Date: <%= quiz.config.endDate %></p>
+  <p>Duration: <%= quiz.config.duration %> minutes</p>
+
+  <h2>Questions</h2>
+  <form action="/submitQuiz/<%= quizId %>" method="post">
+    <% quiz.questions.forEach((question, index) => { %>
+      <div>
+        <h3>Question <%= index + 1 %>: <%= question.question %></h3>
+        <% question.options.forEach((option, optionIndex) => { %>
+          <div>
+            <input type="radio" id="q<%= index %>o<%= optionIndex %>" name="question<%= index %>" value="Option <%= optionIndex + 1 %>" required>
+            <label for="q<%= index %>o<%= optionIndex %>"><%= option %></label>
+          </div>
+        <% }) %>
+      </div>
+    <% }) %>
+    <button type="submit">Submit Quiz</button>
+  </form>
+</body>
+</html>
+
